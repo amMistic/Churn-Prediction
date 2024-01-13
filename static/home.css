@@ -1,0 +1,58 @@
+.centered-title{
+    font:  4em "Fira Sans", "Roboto Slab";
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(238, 239, 240);
+    
+}
+
+.redirect-button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #093647;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3); 
+    font-size: 24px;
+}
+
+body { 
+    background-color: rgb(49, 87, 109);
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    width: 100%; /* Make the image take up the full width of the viewport */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    opacity: 0.2;
+}
+
+.main-content  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #074b66;
+    border-radius: 500px;
+    padding: 40px 50px;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.6); 
+}
+
+.main-content h3{
+    position: relative;
+    top: -13px;
+    left: 22%;
+    color: #46aed4;
+}

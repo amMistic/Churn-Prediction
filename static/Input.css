@@ -1,0 +1,382 @@
+body{
+    background-color: rgb(41, 131, 190);
+}
+
+.representation img{
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+}
+.header p{
+    color: #000;
+    font: bold;
+    position: absolute;
+    margin-top: 25px;
+    margin-right: 15%;
+    left: 215px;
+    white-space: normal;
+    font: 2em "Fira Sans", "Roboto Slab";
+}
+
+.header h1{
+    display: block;
+    white-space: normal;
+    font: 3em "Fira Sans", "Roboto Slab";
+    font-weight: bold; /* Adjust the font weight (e.g., normal, bold, bolder) */
+    color: #1b123f; /* Adjust the font color */
+    position: relative;
+    top: 10px;
+    margin-left: 35% ;
+    
+}
+
+.form-group1 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -730px;
+    left: -120px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group2 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -730px;
+    left: 240px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group3 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -730px;
+    left: 600px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group4 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -730px;
+    left: 960px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group5 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -530px;
+    left: -120px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group6 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -530px;
+    left: 240px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group7 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -530px;
+    left: 600px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group8 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -530px;
+    left: 960px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group9 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -330px;
+    left: -120px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group10 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -330px;
+    left: 240px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group11 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -330px;
+    left: 600px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group12 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -330px;
+    left: 960px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group13 {
+    background-color: #1b123f;
+    color: rgb(0, 255, 255);
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -130px;
+    left: -120px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group14 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -130px;
+    left: 240px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group15 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -130px;
+    left: 600px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group16 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: -130px;
+    left: 960px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group17 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: 70px;
+    left: 240px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group18 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: 70px;
+    left: 600px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+}
+
+.form-group19 {
+    background-color: #1b123f;
+    color: aqua;
+    width: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    font: 1.5em "Fira Sans", "Roboto Slab";
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    top: 70px;
+    left: 960px;
+    box-shadow: 0 7px 12px rgba(250, 248, 248, 0.575);
+
+}
+
+.col-sm-3 button{
+    position: absolute;
+    top: 70px;
+    left:-75px;
+    width: 130px;
+    height: 130px;
+    background-color: #c231df;
+    font: bold;
+    border-color: #c231df;
+    border-radius: 65px;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.4); 
+}
+
+#output{
+    position: absolute;
+    top: 1300px;
+    left: 370px;
+    font: 1.5em "Fira Sans","Roboto Slab";
+    font: bold;
+    color: black;
+}
+
+.line {
+    position: relative;
+    top: 250px;
+    border-top: 1px solid #ccc;
+    margin: 20px 0px;
+    box-shadow: 0 3px 6px #000;
+}
+
+.lines{
+    position: relative;
+    top: 800px;
+    border-top: 1px solid #ccc;
+    margin: 20px 0px;
+    box-shadow: 0 3px 6px #000;
+}
+
+#comment1 {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing by the user */
+}
+
+#comment2 {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing by the user */
+}
+
