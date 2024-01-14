@@ -18,6 +18,7 @@ def predict():
     # load intiall data
     init_data = pd.read_csv('first_telc.csv')
     
+    # customer data
     SeniorCitizen = request.form['query1']
     MonthlyCharges = request.form['query2']
     TotalCharges = request.form['query3']
@@ -51,9 +52,8 @@ def predict():
                                            'PhoneService', 'MultipleLines', 'InternetService',
                                            'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
                                            'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
-                                           'PaymentMethod' ])
+                                           'PaymentMethod'])
     
-
     # concatenate this into the given
     update_data = pd.concat([init_data,new_df],ignore_index=True)
 
@@ -63,7 +63,6 @@ def predict():
     #tenure group 
     update_data['tenure'] = pd.cut(update_data.tenure.astype(int), range(1, 80, 12), right=False, labels=labels)
 
-    
     # get the dummies
     update_data_dummies = pd.get_dummies(update_data[['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
            'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
